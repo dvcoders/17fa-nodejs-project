@@ -8,4 +8,4 @@ function sendWebpage(request, response)
 
 app.get("*", sendWebpage);
 
-app.listen(process.env.PORT);
+app.listen(3000);
